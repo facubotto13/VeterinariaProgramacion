@@ -1,0 +1,442 @@
+/*Estilos personalizados*/
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f9fafb;
+            margin: 0;
+        }
+
+        /* Header profesional con logo */
+        header {
+            background: #2a9d8f; /* verde agua profesional */
+            padding: 20px 0;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            color: white;
+        }
+        header .container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        header .logo {
+            font-size: 1.8rem;
+            font-weight: 700;
+            letter-spacing: 2px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        header .logo img {
+            height: 40px;
+            width: 40px;
+            object-fit: contain;
+        }
+        header .tagline {
+            font-size: 1.1rem;
+            font-weight: 400;
+            font-style: italic;
+            opacity: 0.85;
+        }
+
+        /* Navbar */
+        nav.navbar {
+            background-color: #264653; /* azul oscuro */
+        }
+        nav.navbar .nav-link {
+            font-weight: 600;
+            font-size: 1rem;
+            color: #e9ecef;
+            transition: color 0.3s ease;
+        }
+        nav.navbar .nav-link:hover,
+        nav.navbar .nav-link.active {
+            color: #f4a261; /* naranja */
+        }
+
+        /* Carrusel */
+        #carouselVeterinaria {
+            max-height: 680px;
+            overflow: hidden;
+            position: relative;
+        }
+        #carouselVeterinaria .carousel-item {
+            height: 680px;
+        }
+
+        #carouselVeterinaria .carousel-item img {
+            object-fit: cover;
+            height: 100%;
+            width: 100%;
+            filter: brightness(0.6);
+        }
+
+        /* Texto del carrusel estilo cartel */
+        .carousel-caption.cartel {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: rgba(38, 70, 83, 0.75); /* color azul oscuro translúcido */
+            border-radius: 16px;
+            width: auto;
+            height: 200px;
+            text-align: center;
+            box-shadow: 0 0 20px rgba(38, 70, 83, 0.9);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+}
+
+        .carousel-caption.cartel h1 {
+            font-size: 3.2rem;
+            color: #f4a261; /* naranja */
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+            text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
+        }
+        .carousel-caption.cartel p {
+            font-size: 1.4rem;
+            color: #e9ecef;
+            font-weight: 500;
+            text-shadow: 1px 1px 6px rgba(0,0,0,0.6);
+        }
+        .carousel-caption.cartel h5 {
+            font-size: 1.8rem;
+            color: #f4a261;
+            font-weight: 600;
+            text-shadow: 1px 1px 5px rgba(0,0,0,0.6);
+        }
+
+        /* Footer */
+        footer {
+            background-color: #264653;
+            color: #e9ecef;
+            padding: 30px 0 15px;
+        }
+        footer h5 {
+            font-weight: 700;
+            margin-bottom: 1rem;
+            color: #f4a261;
+        }
+        footer a {
+            color: #e9ecef;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        footer a:hover {
+            color: #f4a261;
+        }
+        footer .border-top {
+            border-color: #f4a261 !important;
+        }
+        
+        /*ANIMALES*/
+
+        /* Sección principal de gestión */
+.container h2 {
+    color: #264653;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+
+/* Formulario */
+#animalForm {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    border-left: 7px solid #2a9d8f;
+    position: relative;
+    overflow: hidden;
+}
+
+#animalForm::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 7px;
+    width: 100%;
+    background: linear-gradient(to right, #2a9d8f 0%, #2a9d8f 60%, transparent 100%);
+    border-top-left-radius: 12px;
+}
+
+
+#animalForm label {
+    font-weight: 600;
+    color: #264653;
+}
+
+#animalForm .form-control, 
+#animalForm select {
+    border-radius: 8px;
+    border: 1px solid #ced4da;
+    transition: border-color 0.3s ease;
+}
+
+#animalForm .form-control:focus {
+    border-color: #2a9d8f;
+    box-shadow: 0 0 0 0.2rem rgba(42, 157, 143, 0.25);
+}
+
+#animalForm button {
+    font-weight: 600;
+    padding: 10px 18px;
+    border-radius: 8px;
+}
+
+/* Tabla */
+#tablaAnimales {
+    background-color: #ffffff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    margin-top: 1.5rem;
+}
+
+#tablaAnimales thead {
+    background-color: #2a9d8f;
+    color: white;
+}
+
+#tablaAnimales th, #tablaAnimales td {
+    vertical-align: middle;
+    text-align: center;
+}
+
+#tablaAnimales tbody tr:hover {
+    background-color: #f0fdfb;
+}
+
+/* Botones de acción en la tabla */
+#tablaAnimales .btn {
+    padding: 5px 12px;
+    font-size: 0.9rem;
+    border-radius: 6px;
+}
+
+/* --- DUEÑOS --- */
+
+#duenioForm {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    border-left: 7px solid #2a9d8f;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 2rem;
+}
+
+#duenioForm::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 7px;
+    width: 100%;
+    background: linear-gradient(to right, #2a9d8f 0%, #2a9d8f 60%, transparent 100%);
+    border-top-left-radius: 12px;
+}
+
+#duenioForm label {
+    font-weight: 600;
+    color: #264653;
+}
+
+#duenioForm .form-control {
+    border-radius: 8px;
+    border: 1px solid #ced4da;
+    transition: border-color 0.3s ease;
+}
+
+#duenioForm .form-control:focus {
+    border-color: #2a9d8f;
+    box-shadow: 0 0 0 0.2rem rgba(42, 157, 143, 0.25);
+}
+
+#duenioForm button {
+    font-weight: 600;
+    padding: 10px 18px;
+    border-radius: 8px;
+}
+
+/* Tabla de dueños */
+#tablaDuenios {
+    background-color: #ffffff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    margin-top: 1.5rem;
+}
+
+#tablaDuenios thead {
+    background-color: #2a9d8f;
+    color: white;
+}
+
+#tablaDuenios th, #tablaDuenios td {
+    vertical-align: middle;
+    text-align: center;
+}
+
+#tablaDuenios tbody tr:hover {
+    background-color: #f0fdfb;
+}
+
+#tablaDuenios .btn {
+    padding: 5px 12px;
+    font-size: 0.9rem;
+    border-radius: 6px;
+}
+
+/*ATENCIONES*/
+#atencionForm {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    border-left: 7px solid #2a9d8f;
+    position: relative;
+    overflow: hidden;
+}
+
+#atencionForm::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 7px;
+    width: 100%;
+    background: linear-gradient(to right, #2a9d8f 0%, #2a9d8f 60%, transparent 100%);
+    border-top-left-radius: 12px;
+}
+
+#atencionForm label {
+    font-weight: 600;
+    color: #264653;
+}
+
+#atencionForm .form-control,
+#atencionForm select {
+    border-radius: 8px;
+    border: 1px solid #ced4da;
+    transition: border-color 0.3s ease;
+}
+
+#atencionForm .form-control:focus {
+    border-color: #2a9d8f;
+    box-shadow: 0 0 0 0.2rem rgba(42, 157, 143, 0.25);
+}
+
+#atencionForm button {
+    font-weight: 600;
+    padding: 10px 18px;
+    border-radius: 8px;
+}
+
+/* Tabla de atenciones */
+#tablaAtenciones {
+    background-color: #ffffff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    margin-top: 1.5rem;
+}
+
+#tablaAtenciones thead {
+    background-color: #2a9d8f;
+    color: white;
+}
+#tablaAtenciones th, #tablaAtenciones td {
+    vertical-align: middle;
+    text-align: center;
+}
+#tablaAtenciones tbody tr:hover {
+    background-color: #f0fdfb;
+}
+#tablaAtenciones .btn {
+    padding: 5px 12px;
+    font-size: 0.9rem;
+    border-radius: 6px;
+}
+/* Estilos para el modal de atenciones */
+.modal-header {
+    background-color: #2a9d8f;
+    color: white;
+    border-bottom: none;
+}
+.modal-body {
+    padding: 20px;
+}
+.modal-footer {
+    border-top: none;
+}
+/* Estilos para el modal de confirmación */
+.modal-confirm {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+.modal-confirm h5 {
+    color: #264653;
+    font-weight: 600;
+}
+.modal-confirm p {
+    color: #6c757d;
+}
+.modal-confirm .btn {
+    font-weight: 600;
+    padding: 10px 18px;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+.modal-confirm .btn-secondary {
+    background-color: #6c757d;
+    color: white;
+}
+.modal-confirm .btn-secondary:hover {
+    background-color: #5a6268;
+}
+.modal-confirm .btn-primary {
+    background-color: #2a9d8f;
+    color: white;
+}
+.modal-confirm .btn-primary:hover {
+    background-color: #21867a;
+}
+/* Estilos para el modal de confirmación de eliminación */
+.modal-delete {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+.modal-delete h5 {
+    color: #264653;
+    font-weight: 600;
+}
+.modal-delete p {
+    color: #6c757d;
+}
+.modal-delete .btn {
+    font-weight: 600;
+    padding: 10px 18px;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+.modal-delete .btn-secondary {
+    background-color: #6c757d;
+    color: white;
+}
+.modal-delete .btn-secondary:hover {
+    background-color: #5a6268;
+}
+.modal-delete .btn-danger {
+    background-color: #e63946;
+    color: white;
+}
+.modal-delete .btn-danger:hover {
+    background-color: #d62839;
+}
