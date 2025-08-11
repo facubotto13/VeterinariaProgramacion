@@ -9,7 +9,7 @@ namespace AdmVeterinaria.Logica.AnimalLogic
         bool EliminarAnimal (int id);
         bool AgregarAnimal (DtoAnimal nuevoAnimal);
         bool ActualizarAnimal(int id, DtoAnimal animalDtos);
-        List<DtoAnimal> FiltrarAnimales(string? nombre, string? razaOEdad, string? sexo);
+        List<DtoAnimal> FiltrarAnimales(string? nombre, string? sexo);
 
     }
 }

@@ -118,10 +118,9 @@ btnModificar.addEventListener("click", function () {
 
 function filtrarAnimales() {
     const nombre = document.getElementById("filtroNombre").value.trim();
-    const razaOEdad = document.getElementById("filtroRazaEdad").value.trim();
     const sexo = document.getElementById("filtroSexo").value;
 
-    const url = `${apiUrl}/filtrar?nombre=${encodeURIComponent(nombre)}&razaEdad=${encodeURIComponent(razaOEdad)}&sexo=${encodeURIComponent(sexo)}`;
+    const url = `${apiUrl}/filtrar?nombre=${encodeURIComponent(nombre)}&sexo=${encodeURIComponent(sexo)}`;
 
     fetch(url)
         .then(res => res.json())

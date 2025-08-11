@@ -12,7 +12,7 @@ namespace AdmVeterinaria.Repositorios.Animal
         void Eliminar(AdmVeterinaria.Datos.Clases.Animal animal);
         void Agregar(AdmVeterinaria.Datos.Clases.Animal animal);
         void Actualizar(AdmVeterinaria.Datos.Clases.Animal animal);
-        List<DtoAnimal> FiltrarAnimales(string? nombre, string? razaOEdad, string? sexo);
+        List<DtoAnimal> FiltrarAnimales(string? nombre, string? sexo);
 
     }
 

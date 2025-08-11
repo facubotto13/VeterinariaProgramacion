@@ -29,9 +29,9 @@ namespace AdmVeterinaria.Logica.AnimalLogic
                 Sexo = animal.Sexo,
             };
         }
-        public List<DtoAnimal> FiltrarAnimales(string? nombre, string? razaOEdad, string? sexo)
+        public List<DtoAnimal> FiltrarAnimales(string? nombre, string? sexo)
         {
-            return _animalRepository.FiltrarAnimales(nombre, razaOEdad, sexo);
+            return _animalRepository.FiltrarAnimales(nombre, sexo);
         }
 
         public bool EliminarAnimal(int id)
