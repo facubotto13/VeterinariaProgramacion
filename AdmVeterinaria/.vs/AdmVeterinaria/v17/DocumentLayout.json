@@ -1,0 +1,712 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Taco\\Documents\\AdmVeterinaria2\\AdmVeterinaria\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EFF39090-CD0B-4D6D-A61B-0DE6690DAB8F}|AdmVeterinaria\\AdmVeterinaria.csproj|c:\\users\\taco\\documents\\admveterinaria2\\admveterinaria\\admveterinaria\\repositorios\\animal\\animalrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFF39090-CD0B-4D6D-A61B-0DE6690DAB8F}|AdmVeterinaria\\AdmVeterinaria.csproj|solutionrelative:admveterinaria\\repositorios\\animal\\animalrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFF39090-CD0B-4D6D-A61B-0DE6690DAB8F}|AdmVeterinaria\\AdmVeterinaria.csproj|c:\\users\\taco\\documents\\admveterinaria2\\admveterinaria\\admveterinaria\\controllers\\animalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFF39090-CD0B-4D6D-A61B-0DE6690DAB8F}|AdmVeterinaria\\AdmVeterinaria.csproj|solutionrelative:admveterinaria\\controllers\\animalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFF39090-CD0B-4D6D-A61B-0DE6690DAB8F}|AdmVeterinaria\\AdmVeterinaria.csproj|c:\\users\\taco\\documents\\admveterinaria2\\admveterinaria\\admveterinaria\\logica\\animal\\animallogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFF39090-CD0B-4D6D-A61B-0DE6690DAB8F}|AdmVeterinaria\\AdmVeterinaria.csproj|solutionrelative:admveterinaria\\logica\\animal\\animallogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFF39090-CD0B-4D6D-A61B-0DE6690DAB8F}|AdmVeterinaria\\AdmVeterinaria.csproj|c:\\users\\taco\\documents\\admveterinaria2\\admveterinaria\\admveterinaria\\logica\\animal\\ianimallogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFF39090-CD0B-4D6D-A61B-0DE6690DAB8F}|AdmVeterinaria\\AdmVeterinaria.csproj|solutionrelative:admveterinaria\\logica\\animal\\ianimallogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFF39090-CD0B-4D6D-A61B-0DE6690DAB8F}|AdmVeterinaria\\AdmVeterinaria.csproj|c:\\users\\taco\\documents\\admveterinaria2\\admveterinaria\\admveterinaria\\repositorios\\animal\\ianimalrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFF39090-CD0B-4D6D-A61B-0DE6690DAB8F}|AdmVeterinaria\\AdmVeterinaria.csproj|solutionrelative:admveterinaria\\repositorios\\animal\\ianimalrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFF39090-CD0B-4D6D-A61B-0DE6690DAB8F}|AdmVeterinaria\\AdmVeterinaria.csproj|c:\\users\\taco\\documents\\admveterinaria2\\admveterinaria\\admveterinaria\\services\\animaldatastore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFF39090-CD0B-4D6D-A61B-0DE6690DAB8F}|AdmVeterinaria\\AdmVeterinaria.csproj|solutionrelative:admveterinaria\\services\\animaldatastore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFF39090-CD0B-4D6D-A61B-0DE6690DAB8F}|AdmVeterinaria\\AdmVeterinaria.csproj|c:\\users\\taco\\documents\\admveterinaria2\\admveterinaria\\admveterinaria\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFF39090-CD0B-4D6D-A61B-0DE6690DAB8F}|AdmVeterinaria\\AdmVeterinaria.csproj|solutionrelative:admveterinaria\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFF39090-CD0B-4D6D-A61B-0DE6690DAB8F}|AdmVeterinaria\\AdmVeterinaria.csproj|c:\\users\\taco\\documents\\admveterinaria2\\admveterinaria\\admveterinaria\\datos\\todocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFF39090-CD0B-4D6D-A61B-0DE6690DAB8F}|AdmVeterinaria\\AdmVeterinaria.csproj|solutionrelative:admveterinaria\\datos\\todocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFF39090-CD0B-4D6D-A61B-0DE6690DAB8F}|AdmVeterinaria\\AdmVeterinaria.csproj|c:\\users\\taco\\documents\\admveterinaria2\\admveterinaria\\admveterinaria\\services\\atenciondatastore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFF39090-CD0B-4D6D-A61B-0DE6690DAB8F}|AdmVeterinaria\\AdmVeterinaria.csproj|solutionrelative:admveterinaria\\services\\atenciondatastore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFF39090-CD0B-4D6D-A61B-0DE6690DAB8F}|AdmVeterinaria\\AdmVeterinaria.csproj|c:\\users\\taco\\documents\\admveterinaria2\\admveterinaria\\admveterinaria\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EFF39090-CD0B-4D6D-A61B-0DE6690DAB8F}|AdmVeterinaria\\AdmVeterinaria.csproj|solutionrelative:admveterinaria\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFF39090-CD0B-4D6D-A61B-0DE6690DAB8F}|AdmVeterinaria\\AdmVeterinaria.csproj|c:\\users\\taco\\documents\\admveterinaria2\\admveterinaria\\admveterinaria\\datos\\clases\\atencion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFF39090-CD0B-4D6D-A61B-0DE6690DAB8F}|AdmVeterinaria\\AdmVeterinaria.csproj|solutionrelative:admveterinaria\\datos\\clases\\atencion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFF39090-CD0B-4D6D-A61B-0DE6690DAB8F}|AdmVeterinaria\\AdmVeterinaria.csproj|c:\\users\\taco\\documents\\admveterinaria2\\admveterinaria\\admveterinaria\\admveterinaria.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{EFF39090-CD0B-4D6D-A61B-0DE6690DAB8F}|AdmVeterinaria\\AdmVeterinaria.csproj|solutionrelative:admveterinaria\\admveterinaria.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFF39090-CD0B-4D6D-A61B-0DE6690DAB8F}|AdmVeterinaria\\AdmVeterinaria.csproj|c:\\users\\taco\\documents\\admveterinaria2\\admveterinaria\\admveterinaria\\logica\\duenio\\dueniologic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFF39090-CD0B-4D6D-A61B-0DE6690DAB8F}|AdmVeterinaria\\AdmVeterinaria.csproj|solutionrelative:admveterinaria\\logica\\duenio\\dueniologic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFF39090-CD0B-4D6D-A61B-0DE6690DAB8F}|AdmVeterinaria\\AdmVeterinaria.csproj|c:\\users\\taco\\documents\\admveterinaria2\\admveterinaria\\admveterinaria\\logica\\tipoanimal\\tipoanimallogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFF39090-CD0B-4D6D-A61B-0DE6690DAB8F}|AdmVeterinaria\\AdmVeterinaria.csproj|solutionrelative:admveterinaria\\logica\\tipoanimal\\tipoanimallogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFF39090-CD0B-4D6D-A61B-0DE6690DAB8F}|AdmVeterinaria\\AdmVeterinaria.csproj|c:\\users\\taco\\documents\\admveterinaria2\\admveterinaria\\admveterinaria\\logica\\tipoanimal\\itipoanimallogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFF39090-CD0B-4D6D-A61B-0DE6690DAB8F}|AdmVeterinaria\\AdmVeterinaria.csproj|solutionrelative:admveterinaria\\logica\\tipoanimal\\itipoanimallogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFF39090-CD0B-4D6D-A61B-0DE6690DAB8F}|AdmVeterinaria\\AdmVeterinaria.csproj|c:\\users\\taco\\documents\\admveterinaria2\\admveterinaria\\admveterinaria\\controllers\\atencioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFF39090-CD0B-4D6D-A61B-0DE6690DAB8F}|AdmVeterinaria\\AdmVeterinaria.csproj|solutionrelative:admveterinaria\\controllers\\atencioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFF39090-CD0B-4D6D-A61B-0DE6690DAB8F}|AdmVeterinaria\\AdmVeterinaria.csproj|c:\\users\\taco\\documents\\admveterinaria2\\admveterinaria\\admveterinaria\\controllers\\medicamentocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFF39090-CD0B-4D6D-A61B-0DE6690DAB8F}|AdmVeterinaria\\AdmVeterinaria.csproj|solutionrelative:admveterinaria\\controllers\\medicamentocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFF39090-CD0B-4D6D-A61B-0DE6690DAB8F}|AdmVeterinaria\\AdmVeterinaria.csproj|c:\\users\\taco\\documents\\admveterinaria2\\admveterinaria\\admveterinaria\\controllers\\dueniocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFF39090-CD0B-4D6D-A61B-0DE6690DAB8F}|AdmVeterinaria\\AdmVeterinaria.csproj|solutionrelative:admveterinaria\\controllers\\dueniocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFF39090-CD0B-4D6D-A61B-0DE6690DAB8F}|AdmVeterinaria\\AdmVeterinaria.csproj|c:\\users\\taco\\documents\\admveterinaria2\\admveterinaria\\admveterinaria\\repositorios\\tipoanimal\\tipoanimalrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFF39090-CD0B-4D6D-A61B-0DE6690DAB8F}|AdmVeterinaria\\AdmVeterinaria.csproj|solutionrelative:admveterinaria\\repositorios\\tipoanimal\\tipoanimalrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFF39090-CD0B-4D6D-A61B-0DE6690DAB8F}|AdmVeterinaria\\AdmVeterinaria.csproj|c:\\users\\taco\\documents\\admveterinaria2\\admveterinaria\\admveterinaria\\repositorios\\tipoanimal\\itipoanimalrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFF39090-CD0B-4D6D-A61B-0DE6690DAB8F}|AdmVeterinaria\\AdmVeterinaria.csproj|solutionrelative:admveterinaria\\repositorios\\tipoanimal\\itipoanimalrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFF39090-CD0B-4D6D-A61B-0DE6690DAB8F}|AdmVeterinaria\\AdmVeterinaria.csproj|c:\\users\\taco\\documents\\admveterinaria2\\admveterinaria\\admveterinaria\\repositorios\\medicamento\\medicamentorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFF39090-CD0B-4D6D-A61B-0DE6690DAB8F}|AdmVeterinaria\\AdmVeterinaria.csproj|solutionrelative:admveterinaria\\repositorios\\medicamento\\medicamentorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFF39090-CD0B-4D6D-A61B-0DE6690DAB8F}|AdmVeterinaria\\AdmVeterinaria.csproj|c:\\users\\taco\\documents\\admveterinaria2\\admveterinaria\\admveterinaria\\repositorios\\medicamento\\imedicamentorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFF39090-CD0B-4D6D-A61B-0DE6690DAB8F}|AdmVeterinaria\\AdmVeterinaria.csproj|solutionrelative:admveterinaria\\repositorios\\medicamento\\imedicamentorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFF39090-CD0B-4D6D-A61B-0DE6690DAB8F}|AdmVeterinaria\\AdmVeterinaria.csproj|c:\\users\\taco\\documents\\admveterinaria2\\admveterinaria\\admveterinaria\\logica\\medicamento\\imedicamentologic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFF39090-CD0B-4D6D-A61B-0DE6690DAB8F}|AdmVeterinaria\\AdmVeterinaria.csproj|solutionrelative:admveterinaria\\logica\\medicamento\\imedicamentologic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFF39090-CD0B-4D6D-A61B-0DE6690DAB8F}|AdmVeterinaria\\AdmVeterinaria.csproj|c:\\users\\taco\\documents\\admveterinaria2\\admveterinaria\\admveterinaria\\logica\\medicamento\\medicamentologic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFF39090-CD0B-4D6D-A61B-0DE6690DAB8F}|AdmVeterinaria\\AdmVeterinaria.csproj|solutionrelative:admveterinaria\\logica\\medicamento\\medicamentologic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFF39090-CD0B-4D6D-A61B-0DE6690DAB8F}|AdmVeterinaria\\AdmVeterinaria.csproj|c:\\users\\taco\\documents\\admveterinaria2\\admveterinaria\\admveterinaria\\logica\\duenio\\idueniologic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFF39090-CD0B-4D6D-A61B-0DE6690DAB8F}|AdmVeterinaria\\AdmVeterinaria.csproj|solutionrelative:admveterinaria\\logica\\duenio\\idueniologic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFF39090-CD0B-4D6D-A61B-0DE6690DAB8F}|AdmVeterinaria\\AdmVeterinaria.csproj|c:\\users\\taco\\documents\\admveterinaria2\\admveterinaria\\admveterinaria\\repositorios\\duenio\\idueniorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFF39090-CD0B-4D6D-A61B-0DE6690DAB8F}|AdmVeterinaria\\AdmVeterinaria.csproj|solutionrelative:admveterinaria\\repositorios\\duenio\\idueniorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFF39090-CD0B-4D6D-A61B-0DE6690DAB8F}|AdmVeterinaria\\AdmVeterinaria.csproj|c:\\users\\taco\\documents\\admveterinaria2\\admveterinaria\\admveterinaria\\repositorios\\duenio\\dueniorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFF39090-CD0B-4D6D-A61B-0DE6690DAB8F}|AdmVeterinaria\\AdmVeterinaria.csproj|solutionrelative:admveterinaria\\repositorios\\duenio\\dueniorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFF39090-CD0B-4D6D-A61B-0DE6690DAB8F}|AdmVeterinaria\\AdmVeterinaria.csproj|c:\\users\\taco\\documents\\admveterinaria2\\admveterinaria\\admveterinaria\\logica\\atencion\\atencionlogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFF39090-CD0B-4D6D-A61B-0DE6690DAB8F}|AdmVeterinaria\\AdmVeterinaria.csproj|solutionrelative:admveterinaria\\logica\\atencion\\atencionlogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFF39090-CD0B-4D6D-A61B-0DE6690DAB8F}|AdmVeterinaria\\AdmVeterinaria.csproj|c:\\users\\taco\\documents\\admveterinaria2\\admveterinaria\\admveterinaria\\logica\\atencion\\iatencionlogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFF39090-CD0B-4D6D-A61B-0DE6690DAB8F}|AdmVeterinaria\\AdmVeterinaria.csproj|solutionrelative:admveterinaria\\logica\\atencion\\iatencionlogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFF39090-CD0B-4D6D-A61B-0DE6690DAB8F}|AdmVeterinaria\\AdmVeterinaria.csproj|c:\\users\\taco\\documents\\admveterinaria2\\admveterinaria\\admveterinaria\\repositorios\\atencion\\iatencionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFF39090-CD0B-4D6D-A61B-0DE6690DAB8F}|AdmVeterinaria\\AdmVeterinaria.csproj|solutionrelative:admveterinaria\\repositorios\\atencion\\iatencionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFF39090-CD0B-4D6D-A61B-0DE6690DAB8F}|AdmVeterinaria\\AdmVeterinaria.csproj|c:\\users\\taco\\documents\\admveterinaria2\\admveterinaria\\admveterinaria\\repositorios\\atencion\\atencionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFF39090-CD0B-4D6D-A61B-0DE6690DAB8F}|AdmVeterinaria\\AdmVeterinaria.csproj|solutionrelative:admveterinaria\\repositorios\\atencion\\atencionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFF39090-CD0B-4D6D-A61B-0DE6690DAB8F}|AdmVeterinaria\\AdmVeterinaria.csproj|c:\\users\\taco\\documents\\admveterinaria2\\admveterinaria\\admveterinaria\\controllers\\tipoanimalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFF39090-CD0B-4D6D-A61B-0DE6690DAB8F}|AdmVeterinaria\\AdmVeterinaria.csproj|solutionrelative:admveterinaria\\controllers\\tipoanimalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFF39090-CD0B-4D6D-A61B-0DE6690DAB8F}|AdmVeterinaria\\AdmVeterinaria.csproj|c:\\users\\taco\\documents\\admveterinaria2\\admveterinaria\\admveterinaria\\datos\\dtos\\dtotipoanimal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFF39090-CD0B-4D6D-A61B-0DE6690DAB8F}|AdmVeterinaria\\AdmVeterinaria.csproj|solutionrelative:admveterinaria\\datos\\dtos\\dtotipoanimal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFF39090-CD0B-4D6D-A61B-0DE6690DAB8F}|AdmVeterinaria\\AdmVeterinaria.csproj|c:\\users\\taco\\documents\\admveterinaria2\\admveterinaria\\admveterinaria\\datos\\dtos\\dtomedicamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFF39090-CD0B-4D6D-A61B-0DE6690DAB8F}|AdmVeterinaria\\AdmVeterinaria.csproj|solutionrelative:admveterinaria\\datos\\dtos\\dtomedicamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFF39090-CD0B-4D6D-A61B-0DE6690DAB8F}|AdmVeterinaria\\AdmVeterinaria.csproj|c:\\users\\taco\\documents\\admveterinaria2\\admveterinaria\\admveterinaria\\datos\\dtos\\dtoduenio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFF39090-CD0B-4D6D-A61B-0DE6690DAB8F}|AdmVeterinaria\\AdmVeterinaria.csproj|solutionrelative:admveterinaria\\datos\\dtos\\dtoduenio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFF39090-CD0B-4D6D-A61B-0DE6690DAB8F}|AdmVeterinaria\\AdmVeterinaria.csproj|c:\\users\\taco\\documents\\admveterinaria2\\admveterinaria\\admveterinaria\\datos\\dtos\\dtoatencion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFF39090-CD0B-4D6D-A61B-0DE6690DAB8F}|AdmVeterinaria\\AdmVeterinaria.csproj|solutionrelative:admveterinaria\\datos\\dtos\\dtoatencion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFF39090-CD0B-4D6D-A61B-0DE6690DAB8F}|AdmVeterinaria\\AdmVeterinaria.csproj|c:\\users\\taco\\documents\\admveterinaria2\\admveterinaria\\admveterinaria\\datos\\dtos\\dtoanimal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFF39090-CD0B-4D6D-A61B-0DE6690DAB8F}|AdmVeterinaria\\AdmVeterinaria.csproj|solutionrelative:admveterinaria\\datos\\dtos\\dtoanimal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFF39090-CD0B-4D6D-A61B-0DE6690DAB8F}|AdmVeterinaria\\AdmVeterinaria.csproj|c:\\users\\taco\\documents\\admveterinaria2\\admveterinaria\\admveterinaria\\datos\\clases\\tipoanimal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFF39090-CD0B-4D6D-A61B-0DE6690DAB8F}|AdmVeterinaria\\AdmVeterinaria.csproj|solutionrelative:admveterinaria\\datos\\clases\\tipoanimal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFF39090-CD0B-4D6D-A61B-0DE6690DAB8F}|AdmVeterinaria\\AdmVeterinaria.csproj|c:\\users\\taco\\documents\\admveterinaria2\\admveterinaria\\admveterinaria\\datos\\clases\\medicamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFF39090-CD0B-4D6D-A61B-0DE6690DAB8F}|AdmVeterinaria\\AdmVeterinaria.csproj|solutionrelative:admveterinaria\\datos\\clases\\medicamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFF39090-CD0B-4D6D-A61B-0DE6690DAB8F}|AdmVeterinaria\\AdmVeterinaria.csproj|c:\\users\\taco\\documents\\admveterinaria2\\admveterinaria\\admveterinaria\\admveterinaria.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{EFF39090-CD0B-4D6D-A61B-0DE6690DAB8F}|AdmVeterinaria\\AdmVeterinaria.csproj|solutionrelative:admveterinaria\\admveterinaria.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFF39090-CD0B-4D6D-A61B-0DE6690DAB8F}|AdmVeterinaria\\AdmVeterinaria.csproj|c:\\users\\taco\\documents\\admveterinaria2\\admveterinaria\\admveterinaria\\datos\\clases\\duenio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFF39090-CD0B-4D6D-A61B-0DE6690DAB8F}|AdmVeterinaria\\AdmVeterinaria.csproj|solutionrelative:admveterinaria\\datos\\clases\\duenio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFF39090-CD0B-4D6D-A61B-0DE6690DAB8F}|AdmVeterinaria\\AdmVeterinaria.csproj|c:\\users\\taco\\documents\\admveterinaria2\\admveterinaria\\admveterinaria\\services\\tipoanimaldatastore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFF39090-CD0B-4D6D-A61B-0DE6690DAB8F}|AdmVeterinaria\\AdmVeterinaria.csproj|solutionrelative:admveterinaria\\services\\tipoanimaldatastore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFF39090-CD0B-4D6D-A61B-0DE6690DAB8F}|AdmVeterinaria\\AdmVeterinaria.csproj|c:\\users\\taco\\documents\\admveterinaria2\\admveterinaria\\admveterinaria\\services\\dueniodatastore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFF39090-CD0B-4D6D-A61B-0DE6690DAB8F}|AdmVeterinaria\\AdmVeterinaria.csproj|solutionrelative:admveterinaria\\services\\dueniodatastore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AnimalController.cs",
+              "DocumentMoniker": "C:\\Users\\Taco\\Documents\\AdmVeterinaria2\\AdmVeterinaria\\AdmVeterinaria\\Controllers\\AnimalController.cs",
+              "RelativeDocumentMoniker": "AdmVeterinaria\\Controllers\\AnimalController.cs",
+              "ToolTip": "C:\\Users\\Taco\\Documents\\AdmVeterinaria2\\AdmVeterinaria\\AdmVeterinaria\\Controllers\\AnimalController.cs",
+              "RelativeToolTip": "AdmVeterinaria\\Controllers\\AnimalController.cs",
+              "ViewState": "AgIAABIAAAAAmZmZmZktwCAAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-10T22:33:28.986Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AtencionDataStore.cs",
+              "DocumentMoniker": "C:\\Users\\Taco\\Documents\\AdmVeterinaria2\\AdmVeterinaria\\AdmVeterinaria\\Services\\AtencionDataStore.cs",
+              "RelativeDocumentMoniker": "AdmVeterinaria\\Services\\AtencionDataStore.cs",
+              "ToolTip": "C:\\Users\\Taco\\Documents\\AdmVeterinaria2\\AdmVeterinaria\\AdmVeterinaria\\Services\\AtencionDataStore.cs",
+              "RelativeToolTip": "AdmVeterinaria\\Services\\AtencionDataStore.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T21:13:03.27Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AnimalLogic.cs",
+              "DocumentMoniker": "C:\\Users\\Taco\\Documents\\AdmVeterinaria2\\AdmVeterinaria\\AdmVeterinaria\\Logica\\Animal\\AnimalLogic.cs",
+              "RelativeDocumentMoniker": "AdmVeterinaria\\Logica\\Animal\\AnimalLogic.cs",
+              "ToolTip": "C:\\Users\\Taco\\Documents\\AdmVeterinaria2\\AdmVeterinaria\\AdmVeterinaria\\Logica\\Animal\\AnimalLogic.cs",
+              "RelativeToolTip": "AdmVeterinaria\\Logica\\Animal\\AnimalLogic.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAgwCMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T20:19:49.624Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AnimalRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Taco\\Documents\\AdmVeterinaria2\\AdmVeterinaria\\AdmVeterinaria\\Repositorios\\Animal\\AnimalRepository.cs",
+              "RelativeDocumentMoniker": "AdmVeterinaria\\Repositorios\\Animal\\AnimalRepository.cs",
+              "ToolTip": "C:\\Users\\Taco\\Documents\\AdmVeterinaria2\\AdmVeterinaria\\AdmVeterinaria\\Repositorios\\Animal\\AnimalRepository.cs",
+              "RelativeToolTip": "AdmVeterinaria\\Repositorios\\Animal\\AnimalRepository.cs",
+              "ViewState": "AgIAABAAAABgZmZmZmYwwB4AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T20:23:12.482Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IAnimalLogic.cs",
+              "DocumentMoniker": "C:\\Users\\Taco\\Documents\\AdmVeterinaria2\\AdmVeterinaria\\AdmVeterinaria\\Logica\\Animal\\IAnimalLogic.cs",
+              "RelativeDocumentMoniker": "AdmVeterinaria\\Logica\\Animal\\IAnimalLogic.cs",
+              "ToolTip": "C:\\Users\\Taco\\Documents\\AdmVeterinaria2\\AdmVeterinaria\\AdmVeterinaria\\Logica\\Animal\\IAnimalLogic.cs",
+              "RelativeToolTip": "AdmVeterinaria\\Logica\\Animal\\IAnimalLogic.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T21:01:56.849Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IAnimalRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Taco\\Documents\\AdmVeterinaria2\\AdmVeterinaria\\AdmVeterinaria\\Repositorios\\Animal\\IAnimalRepository.cs",
+              "RelativeDocumentMoniker": "AdmVeterinaria\\Repositorios\\Animal\\IAnimalRepository.cs",
+              "ToolTip": "C:\\Users\\Taco\\Documents\\AdmVeterinaria2\\AdmVeterinaria\\AdmVeterinaria\\Repositorios\\Animal\\IAnimalRepository.cs",
+              "RelativeToolTip": "AdmVeterinaria\\Repositorios\\Animal\\IAnimalRepository.cs",
+              "ViewState": "AgIAAAcAAAAAMzMzMzMLwA4AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T20:54:05.416Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TodoContext.cs",
+              "DocumentMoniker": "C:\\Users\\Taco\\Documents\\AdmVeterinaria2\\AdmVeterinaria\\AdmVeterinaria\\Datos\\TodoContext.cs",
+              "RelativeDocumentMoniker": "AdmVeterinaria\\Datos\\TodoContext.cs",
+              "ToolTip": "C:\\Users\\Taco\\Documents\\AdmVeterinaria2\\AdmVeterinaria\\AdmVeterinaria\\Datos\\TodoContext.cs",
+              "RelativeToolTip": "AdmVeterinaria\\Datos\\TodoContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T19:59:19.763Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Atencion.cs",
+              "DocumentMoniker": "C:\\Users\\Taco\\Documents\\AdmVeterinaria2\\AdmVeterinaria\\AdmVeterinaria\\Datos\\Clases\\Atencion.cs",
+              "RelativeDocumentMoniker": "AdmVeterinaria\\Datos\\Clases\\Atencion.cs",
+              "ToolTip": "C:\\Users\\Taco\\Documents\\AdmVeterinaria2\\AdmVeterinaria\\AdmVeterinaria\\Datos\\Clases\\Atencion.cs",
+              "RelativeToolTip": "AdmVeterinaria\\Datos\\Clases\\Atencion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T22:04:41.548Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AnimalDataStore.cs",
+              "DocumentMoniker": "C:\\Users\\Taco\\Documents\\AdmVeterinaria2\\AdmVeterinaria\\AdmVeterinaria\\Services\\AnimalDataStore.cs",
+              "RelativeDocumentMoniker": "AdmVeterinaria\\Services\\AnimalDataStore.cs",
+              "ToolTip": "C:\\Users\\Taco\\Documents\\AdmVeterinaria2\\AdmVeterinaria\\AdmVeterinaria\\Services\\AnimalDataStore.cs",
+              "RelativeToolTip": "AdmVeterinaria\\Services\\AnimalDataStore.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAA1wA8AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T21:12:58.282Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Taco\\Documents\\AdmVeterinaria2\\AdmVeterinaria\\AdmVeterinaria\\Program.cs",
+              "RelativeDocumentMoniker": "AdmVeterinaria\\Program.cs",
+              "ToolTip": "C:\\Users\\Taco\\Documents\\AdmVeterinaria2\\AdmVeterinaria\\AdmVeterinaria\\Program.cs",
+              "RelativeToolTip": "AdmVeterinaria\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-10T21:29:36.394Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Taco\\Documents\\AdmVeterinaria2\\AdmVeterinaria\\AdmVeterinaria\\appsettings.json",
+              "RelativeDocumentMoniker": "AdmVeterinaria\\appsettings.json",
+              "ToolTip": "C:\\Users\\Taco\\Documents\\AdmVeterinaria2\\AdmVeterinaria\\AdmVeterinaria\\appsettings.json",
+              "RelativeToolTip": "AdmVeterinaria\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-10T21:00:12.056Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AdmVeterinaria.csproj",
+              "DocumentMoniker": "C:\\Users\\Taco\\Documents\\AdmVeterinaria2\\AdmVeterinaria\\AdmVeterinaria\\AdmVeterinaria.csproj",
+              "RelativeDocumentMoniker": "AdmVeterinaria\\AdmVeterinaria.csproj",
+              "ToolTip": "C:\\Users\\Taco\\Documents\\AdmVeterinaria2\\AdmVeterinaria\\AdmVeterinaria\\AdmVeterinaria.csproj",
+              "RelativeToolTip": "AdmVeterinaria\\AdmVeterinaria.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-10T21:46:38.288Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DuenioLogic.cs",
+              "DocumentMoniker": "C:\\Users\\Taco\\Documents\\AdmVeterinaria2\\AdmVeterinaria\\AdmVeterinaria\\Logica\\Duenio\\DuenioLogic.cs",
+              "RelativeDocumentMoniker": "AdmVeterinaria\\Logica\\Duenio\\DuenioLogic.cs",
+              "ToolTip": "C:\\Users\\Taco\\Documents\\AdmVeterinaria2\\AdmVeterinaria\\AdmVeterinaria\\Logica\\Duenio\\DuenioLogic.cs",
+              "RelativeToolTip": "AdmVeterinaria\\Logica\\Duenio\\DuenioLogic.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T21:08:54.316Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ITipoAnimalLogic.cs",
+              "DocumentMoniker": "C:\\Users\\Taco\\Documents\\AdmVeterinaria2\\AdmVeterinaria\\AdmVeterinaria\\Logica\\TipoAnimal\\ITipoAnimalLogic.cs",
+              "RelativeDocumentMoniker": "AdmVeterinaria\\Logica\\TipoAnimal\\ITipoAnimalLogic.cs",
+              "ToolTip": "C:\\Users\\Taco\\Documents\\AdmVeterinaria2\\AdmVeterinaria\\AdmVeterinaria\\Logica\\TipoAnimal\\ITipoAnimalLogic.cs",
+              "RelativeToolTip": "AdmVeterinaria\\Logica\\TipoAnimal\\ITipoAnimalLogic.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T20:59:21.842Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AtencionController.cs",
+              "DocumentMoniker": "C:\\Users\\Taco\\Documents\\AdmVeterinaria2\\AdmVeterinaria\\AdmVeterinaria\\Controllers\\AtencionController.cs",
+              "RelativeDocumentMoniker": "AdmVeterinaria\\Controllers\\AtencionController.cs",
+              "ToolTip": "C:\\Users\\Taco\\Documents\\AdmVeterinaria2\\AdmVeterinaria\\AdmVeterinaria\\Controllers\\AtencionController.cs",
+              "RelativeToolTip": "AdmVeterinaria\\Controllers\\AtencionController.cs",
+              "ViewState": "AgIAACwAAACAZmZmZmYqwBgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T21:59:00.135Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "TipoAnimalRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Taco\\Documents\\AdmVeterinaria2\\AdmVeterinaria\\AdmVeterinaria\\Repositorios\\TipoAnimal\\TipoAnimalRepository.cs",
+              "RelativeDocumentMoniker": "AdmVeterinaria\\Repositorios\\TipoAnimal\\TipoAnimalRepository.cs",
+              "ToolTip": "C:\\Users\\Taco\\Documents\\AdmVeterinaria2\\AdmVeterinaria\\AdmVeterinaria\\Repositorios\\TipoAnimal\\TipoAnimalRepository.cs",
+              "RelativeToolTip": "AdmVeterinaria\\Repositorios\\TipoAnimal\\TipoAnimalRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T20:58:13.915Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "TipoAnimalLogic.cs",
+              "DocumentMoniker": "C:\\Users\\Taco\\Documents\\AdmVeterinaria2\\AdmVeterinaria\\AdmVeterinaria\\Logica\\TipoAnimal\\TipoAnimalLogic.cs",
+              "RelativeDocumentMoniker": "AdmVeterinaria\\Logica\\TipoAnimal\\TipoAnimalLogic.cs",
+              "ToolTip": "C:\\Users\\Taco\\Documents\\AdmVeterinaria2\\AdmVeterinaria\\AdmVeterinaria\\Logica\\TipoAnimal\\TipoAnimalLogic.cs",
+              "RelativeToolTip": "AdmVeterinaria\\Logica\\TipoAnimal\\TipoAnimalLogic.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T21:10:47.778Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ITipoAnimalRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Taco\\Documents\\AdmVeterinaria2\\AdmVeterinaria\\AdmVeterinaria\\Repositorios\\TipoAnimal\\ITipoAnimalRepository.cs",
+              "RelativeDocumentMoniker": "AdmVeterinaria\\Repositorios\\TipoAnimal\\ITipoAnimalRepository.cs",
+              "ToolTip": "C:\\Users\\Taco\\Documents\\AdmVeterinaria2\\AdmVeterinaria\\AdmVeterinaria\\Repositorios\\TipoAnimal\\ITipoAnimalRepository.cs",
+              "RelativeToolTip": "AdmVeterinaria\\Repositorios\\TipoAnimal\\ITipoAnimalRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T20:18:35.07Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "MedicamentoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Taco\\Documents\\AdmVeterinaria2\\AdmVeterinaria\\AdmVeterinaria\\Repositorios\\Medicamento\\MedicamentoRepository.cs",
+              "RelativeDocumentMoniker": "AdmVeterinaria\\Repositorios\\Medicamento\\MedicamentoRepository.cs",
+              "ToolTip": "C:\\Users\\Taco\\Documents\\AdmVeterinaria2\\AdmVeterinaria\\AdmVeterinaria\\Repositorios\\Medicamento\\MedicamentoRepository.cs",
+              "RelativeToolTip": "AdmVeterinaria\\Repositorios\\Medicamento\\MedicamentoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T20:57:28.724Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "DuenioController.cs",
+              "DocumentMoniker": "C:\\Users\\Taco\\Documents\\AdmVeterinaria2\\AdmVeterinaria\\AdmVeterinaria\\Controllers\\DuenioController.cs",
+              "RelativeDocumentMoniker": "AdmVeterinaria\\Controllers\\DuenioController.cs",
+              "ToolTip": "C:\\Users\\Taco\\Documents\\AdmVeterinaria2\\AdmVeterinaria\\AdmVeterinaria\\Controllers\\DuenioController.cs",
+              "RelativeToolTip": "AdmVeterinaria\\Controllers\\DuenioController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T22:40:29.177Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "MedicamentoController.cs",
+              "DocumentMoniker": "C:\\Users\\Taco\\Documents\\AdmVeterinaria2\\AdmVeterinaria\\AdmVeterinaria\\Controllers\\MedicamentoController.cs",
+              "RelativeDocumentMoniker": "AdmVeterinaria\\Controllers\\MedicamentoController.cs",
+              "ToolTip": "C:\\Users\\Taco\\Documents\\AdmVeterinaria2\\AdmVeterinaria\\AdmVeterinaria\\Controllers\\MedicamentoController.cs",
+              "RelativeToolTip": "AdmVeterinaria\\Controllers\\MedicamentoController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T20:14:15.67Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IMedicamentoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Taco\\Documents\\AdmVeterinaria2\\AdmVeterinaria\\AdmVeterinaria\\Repositorios\\Medicamento\\IMedicamentoRepository.cs",
+              "RelativeDocumentMoniker": "AdmVeterinaria\\Repositorios\\Medicamento\\IMedicamentoRepository.cs",
+              "ToolTip": "C:\\Users\\Taco\\Documents\\AdmVeterinaria2\\AdmVeterinaria\\AdmVeterinaria\\Repositorios\\Medicamento\\IMedicamentoRepository.cs",
+              "RelativeToolTip": "AdmVeterinaria\\Repositorios\\Medicamento\\IMedicamentoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T20:56:49.363Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "IMedicamentoLogic.cs",
+              "DocumentMoniker": "C:\\Users\\Taco\\Documents\\AdmVeterinaria2\\AdmVeterinaria\\AdmVeterinaria\\Logica\\Medicamento\\IMedicamentoLogic.cs",
+              "RelativeDocumentMoniker": "AdmVeterinaria\\Logica\\Medicamento\\IMedicamentoLogic.cs",
+              "ToolTip": "C:\\Users\\Taco\\Documents\\AdmVeterinaria2\\AdmVeterinaria\\AdmVeterinaria\\Logica\\Medicamento\\IMedicamentoLogic.cs",
+              "RelativeToolTip": "AdmVeterinaria\\Logica\\Medicamento\\IMedicamentoLogic.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T21:09:46.125Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "MedicamentoLogic.cs",
+              "DocumentMoniker": "C:\\Users\\Taco\\Documents\\AdmVeterinaria2\\AdmVeterinaria\\AdmVeterinaria\\Logica\\Medicamento\\MedicamentoLogic.cs",
+              "RelativeDocumentMoniker": "AdmVeterinaria\\Logica\\Medicamento\\MedicamentoLogic.cs",
+              "ToolTip": "C:\\Users\\Taco\\Documents\\AdmVeterinaria2\\AdmVeterinaria\\AdmVeterinaria\\Logica\\Medicamento\\MedicamentoLogic.cs",
+              "RelativeToolTip": "AdmVeterinaria\\Logica\\Medicamento\\MedicamentoLogic.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE4AAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T21:09:54.224Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "IDuenioLogic.cs",
+              "DocumentMoniker": "C:\\Users\\Taco\\Documents\\AdmVeterinaria2\\AdmVeterinaria\\AdmVeterinaria\\Logica\\Duenio\\IDuenioLogic.cs",
+              "RelativeDocumentMoniker": "AdmVeterinaria\\Logica\\Duenio\\IDuenioLogic.cs",
+              "ToolTip": "C:\\Users\\Taco\\Documents\\AdmVeterinaria2\\AdmVeterinaria\\AdmVeterinaria\\Logica\\Duenio\\IDuenioLogic.cs",
+              "RelativeToolTip": "AdmVeterinaria\\Logica\\Duenio\\IDuenioLogic.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T21:09:08.754Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "AtencionLogic.cs",
+              "DocumentMoniker": "C:\\Users\\Taco\\Documents\\AdmVeterinaria2\\AdmVeterinaria\\AdmVeterinaria\\Logica\\Atencion\\AtencionLogic.cs",
+              "RelativeDocumentMoniker": "AdmVeterinaria\\Logica\\Atencion\\AtencionLogic.cs",
+              "ToolTip": "C:\\Users\\Taco\\Documents\\AdmVeterinaria2\\AdmVeterinaria\\AdmVeterinaria\\Logica\\Atencion\\AtencionLogic.cs",
+              "RelativeToolTip": "AdmVeterinaria\\Logica\\Atencion\\AtencionLogic.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAcwAcAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T21:02:17.572Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "IAtencionLogic.cs",
+              "DocumentMoniker": "C:\\Users\\Taco\\Documents\\AdmVeterinaria2\\AdmVeterinaria\\AdmVeterinaria\\Logica\\Atencion\\IAtencionLogic.cs",
+              "RelativeDocumentMoniker": "AdmVeterinaria\\Logica\\Atencion\\IAtencionLogic.cs",
+              "ToolTip": "C:\\Users\\Taco\\Documents\\AdmVeterinaria2\\AdmVeterinaria\\AdmVeterinaria\\Logica\\Atencion\\IAtencionLogic.cs",
+              "RelativeToolTip": "AdmVeterinaria\\Logica\\Atencion\\IAtencionLogic.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T21:02:48.284Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "DuenioRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Taco\\Documents\\AdmVeterinaria2\\AdmVeterinaria\\AdmVeterinaria\\Repositorios\\Duenio\\DuenioRepository.cs",
+              "RelativeDocumentMoniker": "AdmVeterinaria\\Repositorios\\Duenio\\DuenioRepository.cs",
+              "ToolTip": "C:\\Users\\Taco\\Documents\\AdmVeterinaria2\\AdmVeterinaria\\AdmVeterinaria\\Repositorios\\Duenio\\DuenioRepository.cs",
+              "RelativeToolTip": "AdmVeterinaria\\Repositorios\\Duenio\\DuenioRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T20:55:59.92Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "IDuenioRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Taco\\Documents\\AdmVeterinaria2\\AdmVeterinaria\\AdmVeterinaria\\Repositorios\\Duenio\\IDuenioRepository.cs",
+              "RelativeDocumentMoniker": "AdmVeterinaria\\Repositorios\\Duenio\\IDuenioRepository.cs",
+              "ToolTip": "C:\\Users\\Taco\\Documents\\AdmVeterinaria2\\AdmVeterinaria\\AdmVeterinaria\\Repositorios\\Duenio\\IDuenioRepository.cs",
+              "RelativeToolTip": "AdmVeterinaria\\Repositorios\\Duenio\\IDuenioRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T20:56:26.258Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "IAtencionRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Taco\\Documents\\AdmVeterinaria2\\AdmVeterinaria\\AdmVeterinaria\\Repositorios\\Atencion\\IAtencionRepository.cs",
+              "RelativeDocumentMoniker": "AdmVeterinaria\\Repositorios\\Atencion\\IAtencionRepository.cs",
+              "ToolTip": "C:\\Users\\Taco\\Documents\\AdmVeterinaria2\\AdmVeterinaria\\AdmVeterinaria\\Repositorios\\Atencion\\IAtencionRepository.cs",
+              "RelativeToolTip": "AdmVeterinaria\\Repositorios\\Atencion\\IAtencionRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T20:55:40.163Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "AtencionRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Taco\\Documents\\AdmVeterinaria2\\AdmVeterinaria\\AdmVeterinaria\\Repositorios\\Atencion\\AtencionRepository.cs",
+              "RelativeDocumentMoniker": "AdmVeterinaria\\Repositorios\\Atencion\\AtencionRepository.cs",
+              "ToolTip": "C:\\Users\\Taco\\Documents\\AdmVeterinaria2\\AdmVeterinaria\\AdmVeterinaria\\Repositorios\\Atencion\\AtencionRepository.cs",
+              "RelativeToolTip": "AdmVeterinaria\\Repositorios\\Atencion\\AtencionRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T20:54:51.634Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "TipoAnimalController.cs",
+              "DocumentMoniker": "C:\\Users\\Taco\\Documents\\AdmVeterinaria2\\AdmVeterinaria\\AdmVeterinaria\\Controllers\\TipoAnimalController.cs",
+              "RelativeDocumentMoniker": "AdmVeterinaria\\Controllers\\TipoAnimalController.cs",
+              "ToolTip": "C:\\Users\\Taco\\Documents\\AdmVeterinaria2\\AdmVeterinaria\\AdmVeterinaria\\Controllers\\TipoAnimalController.cs",
+              "RelativeToolTip": "AdmVeterinaria\\Controllers\\TipoAnimalController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAowAMAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T22:51:56.753Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "DtoTipoAnimal.cs",
+              "DocumentMoniker": "C:\\Users\\Taco\\Documents\\AdmVeterinaria2\\AdmVeterinaria\\AdmVeterinaria\\Datos\\Dtos\\DtoTipoAnimal.cs",
+              "RelativeDocumentMoniker": "AdmVeterinaria\\Datos\\Dtos\\DtoTipoAnimal.cs",
+              "ToolTip": "C:\\Users\\Taco\\Documents\\AdmVeterinaria2\\AdmVeterinaria\\AdmVeterinaria\\Datos\\Dtos\\DtoTipoAnimal.cs",
+              "RelativeToolTip": "AdmVeterinaria\\Datos\\Dtos\\DtoTipoAnimal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T20:17:01.507Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "DtoMedicamento.cs",
+              "DocumentMoniker": "C:\\Users\\Taco\\Documents\\AdmVeterinaria2\\AdmVeterinaria\\AdmVeterinaria\\Datos\\Dtos\\DtoMedicamento.cs",
+              "RelativeDocumentMoniker": "AdmVeterinaria\\Datos\\Dtos\\DtoMedicamento.cs",
+              "ToolTip": "C:\\Users\\Taco\\Documents\\AdmVeterinaria2\\AdmVeterinaria\\AdmVeterinaria\\Datos\\Dtos\\DtoMedicamento.cs",
+              "RelativeToolTip": "AdmVeterinaria\\Datos\\Dtos\\DtoMedicamento.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T21:00:17.151Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "DtoDuenio.cs",
+              "DocumentMoniker": "C:\\Users\\Taco\\Documents\\AdmVeterinaria2\\AdmVeterinaria\\AdmVeterinaria\\Datos\\Dtos\\DtoDuenio.cs",
+              "RelativeDocumentMoniker": "AdmVeterinaria\\Datos\\Dtos\\DtoDuenio.cs",
+              "ToolTip": "C:\\Users\\Taco\\Documents\\AdmVeterinaria2\\AdmVeterinaria\\AdmVeterinaria\\Datos\\Dtos\\DtoDuenio.cs",
+              "RelativeToolTip": "AdmVeterinaria\\Datos\\Dtos\\DtoDuenio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T21:00:14.276Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "DtoAtencion.cs",
+              "DocumentMoniker": "C:\\Users\\Taco\\Documents\\AdmVeterinaria2\\AdmVeterinaria\\AdmVeterinaria\\Datos\\Dtos\\DtoAtencion.cs",
+              "RelativeDocumentMoniker": "AdmVeterinaria\\Datos\\Dtos\\DtoAtencion.cs",
+              "ToolTip": "C:\\Users\\Taco\\Documents\\AdmVeterinaria2\\AdmVeterinaria\\AdmVeterinaria\\Datos\\Dtos\\DtoAtencion.cs",
+              "RelativeToolTip": "AdmVeterinaria\\Datos\\Dtos\\DtoAtencion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T20:17:05.539Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "DtoAnimal.cs",
+              "DocumentMoniker": "C:\\Users\\Taco\\Documents\\AdmVeterinaria2\\AdmVeterinaria\\AdmVeterinaria\\Datos\\Dtos\\DtoAnimal.cs",
+              "RelativeDocumentMoniker": "AdmVeterinaria\\Datos\\Dtos\\DtoAnimal.cs",
+              "ToolTip": "C:\\Users\\Taco\\Documents\\AdmVeterinaria2\\AdmVeterinaria\\AdmVeterinaria\\Datos\\Dtos\\DtoAnimal.cs",
+              "RelativeToolTip": "AdmVeterinaria\\Datos\\Dtos\\DtoAnimal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T21:00:01.069Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Medicamento.cs",
+              "DocumentMoniker": "C:\\Users\\Taco\\Documents\\AdmVeterinaria2\\AdmVeterinaria\\AdmVeterinaria\\Datos\\Clases\\Medicamento.cs",
+              "RelativeDocumentMoniker": "AdmVeterinaria\\Datos\\Clases\\Medicamento.cs",
+              "ToolTip": "C:\\Users\\Taco\\Documents\\AdmVeterinaria2\\AdmVeterinaria\\AdmVeterinaria\\Datos\\Clases\\Medicamento.cs",
+              "RelativeToolTip": "AdmVeterinaria\\Datos\\Clases\\Medicamento.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T19:56:30.888Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "TipoAnimal.cs",
+              "DocumentMoniker": "C:\\Users\\Taco\\Documents\\AdmVeterinaria2\\AdmVeterinaria\\AdmVeterinaria\\Datos\\Clases\\TipoAnimal.cs",
+              "RelativeDocumentMoniker": "AdmVeterinaria\\Datos\\Clases\\TipoAnimal.cs",
+              "ToolTip": "C:\\Users\\Taco\\Documents\\AdmVeterinaria2\\AdmVeterinaria\\AdmVeterinaria\\Datos\\Clases\\TipoAnimal.cs",
+              "RelativeToolTip": "AdmVeterinaria\\Datos\\Clases\\TipoAnimal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T22:52:04.338Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Duenio.cs",
+              "DocumentMoniker": "C:\\Users\\Taco\\Documents\\AdmVeterinaria2\\AdmVeterinaria\\AdmVeterinaria\\Datos\\Clases\\Duenio.cs",
+              "RelativeDocumentMoniker": "AdmVeterinaria\\Datos\\Clases\\Duenio.cs",
+              "ToolTip": "C:\\Users\\Taco\\Documents\\AdmVeterinaria2\\AdmVeterinaria\\AdmVeterinaria\\Datos\\Clases\\Duenio.cs",
+              "RelativeToolTip": "AdmVeterinaria\\Datos\\Clases\\Duenio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T22:38:15.03Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "AdmVeterinaria",
+              "DocumentMoniker": "C:\\Users\\Taco\\Documents\\AdmVeterinaria2\\AdmVeterinaria\\AdmVeterinaria\\AdmVeterinaria.csproj",
+              "RelativeDocumentMoniker": "AdmVeterinaria\\AdmVeterinaria.csproj",
+              "ToolTip": "C:\\Users\\Taco\\Documents\\AdmVeterinaria2\\AdmVeterinaria\\AdmVeterinaria\\AdmVeterinaria.csproj",
+              "RelativeToolTip": "AdmVeterinaria\\AdmVeterinaria.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-12T20:03:27.768Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "TipoAnimalDataStore.cs",
+              "DocumentMoniker": "C:\\Users\\Taco\\Documents\\AdmVeterinaria2\\AdmVeterinaria\\AdmVeterinaria\\Services\\TipoAnimalDataStore.cs",
+              "RelativeDocumentMoniker": "AdmVeterinaria\\Services\\TipoAnimalDataStore.cs",
+              "ToolTip": "C:\\Users\\Taco\\Documents\\AdmVeterinaria2\\AdmVeterinaria\\AdmVeterinaria\\Services\\TipoAnimalDataStore.cs",
+              "RelativeToolTip": "AdmVeterinaria\\Services\\TipoAnimalDataStore.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T22:52:19.648Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "DuenioDataStore.cs",
+              "DocumentMoniker": "C:\\Users\\Taco\\Documents\\AdmVeterinaria2\\AdmVeterinaria\\AdmVeterinaria\\Services\\DuenioDataStore.cs",
+              "RelativeDocumentMoniker": "AdmVeterinaria\\Services\\DuenioDataStore.cs",
+              "ToolTip": "C:\\Users\\Taco\\Documents\\AdmVeterinaria2\\AdmVeterinaria\\AdmVeterinaria\\Services\\DuenioDataStore.cs",
+              "RelativeToolTip": "AdmVeterinaria\\Services\\DuenioDataStore.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAxwBQAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T22:36:38.415Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
