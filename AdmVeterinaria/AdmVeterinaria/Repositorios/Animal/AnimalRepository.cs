@@ -16,21 +16,16 @@ namespace AdmVeterinaria.Repositorios.Animal
         {
             return AnimalDataStore.Current.Animales.FirstOrDefault(x => x.IdAnimal == id);
         }
-        public List<DtoAnimal> FiltrarAnimales(string? nombre, string? razaOEdad, string? sexo)
+        public List<DtoAnimal> FiltrarAnimales(string? nombre, string? sexo)
         {
             var query = AnimalDataStore.Current.Animales.AsQueryable();
 
             if (!string.IsNullOrWhiteSpace(nombre))
-                query = query.Where(a => a.Nombre != null && a.Nombre.ToLower().StartsWith(nombre.ToLower()));
+               query = query.Where(a =>
+            (a.Nombre != null && a.Nombre.ToLower().StartsWith(texto)) ||
+            (a.Raza != null && a.Raza.ToLower().StartsWith(texto)) ||
+            a.Edad.ToString().StartsWith(texto));
 
-            if (!string.IsNullOrWhiteSpace(razaOEdad))
-            {
-                string term = razaOEdad.ToLower();
-                query = query.Where(a =>
-                    (a.Raza != null && a.Raza.ToLower().StartsWith(term)) ||
-                    a.Edad.StartsWith(term)
-                );
-            }
 
             if (!string.IsNullOrWhiteSpace(sexo))
                 query = query.Where(a => a.Sexo != null && a.Sexo.ToLower() == sexo.ToLower());

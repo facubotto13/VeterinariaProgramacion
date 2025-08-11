@@ -27,9 +27,9 @@ namespace AdmVeterinaria.Controllers
 
         // GET: api/Animal/filtrar?texto=per
         [HttpGet("filtrar")]
-        public IActionResult Filtrar(string? nombre, string? razaEdad, string? sexo)
+        public IActionResult Filtrar(string? nombre, string? sexo)
         {
-            var resultado = _animallogic.FiltrarAnimales(nombre, razaEdad, sexo);
+            var resultado = _animallogic.FiltrarAnimales(nombre, sexo);
             return Ok(resultado);
         }
 
