@@ -22,9 +22,9 @@ namespace AdmVeterinaria.Repositorios.Animal
 
             if (!string.IsNullOrWhiteSpace(nombre))
                query = query.Where(a =>
-            (a.Nombre != null && a.Nombre.ToLower().StartsWith(texto)) ||
-            (a.Raza != null && a.Raza.ToLower().StartsWith(texto)) ||
-            a.Edad.ToString().StartsWith(texto));
+            (a.Nombre != null && a.Nombre.ToLower().StartsWith(nombre)) ||
+            (a.Raza != null && a.Raza.ToLower().StartsWith(nombre)) ||
+            a.Edad.ToString().StartsWith(nombre));
 
 
             if (!string.IsNullOrWhiteSpace(sexo))
