@@ -30,7 +30,7 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item"><a class="nav-link" href="animales.html">Animales</a></li>
-                    <li class="nav-item"><a class="nav-link" href="duenios.html">Dueños</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="duenios.html">Dueños</a></li>
                     <li class="nav-item"><a class="nav-link" href="atenciones.html">Atenciones</a></li>
                 </ul>
             </div>
@@ -42,64 +42,51 @@
         <h2>Gestión de Dueños</h2>
 
         <!-- Formulario para registrar o editar un dueño -->
-<form id="duenioForm" class="mb-4">
-    <input type="hidden" id="duenioId"> <!-- Campo oculto para actualizar -->
-    <div class="row">
-        <div class="col-md-6 mb-3">
-            <label for="dni" class="form-label">DNI</label>
-            <input type="text" class="form-control" id="dni" required>
-        </div>
-        <div class="col-md-6 mb-3">
-            <label for="nombre" class="form-label">Nombre</label>
-            <input type="text" class="form-control" id="nombre" required>
-        </div>
-        <div class="col-md-6 mb-3">
-            <label for="apellido" class="form-label">Apellido</label>
-            <input type="text" class="form-control" id="apellido" required>
-        </div>
-        <div class="col-md-6 mb-3">
-            <label for="animalId" class="form-label">ID del Animal</label>
-            <input type="text" class="form-control" id="animalId" required>
-        </div>
-        <div class="col-12 mt-3">
-            <button type="submit" class="btn btn-success me-2">Guardar</button>
-            <button type="button" class="btn btn-primary me-2" id="btnModificar">Modificar</button>
-            <button type="button" class="btn btn-danger me-2" id="btnEliminar">Eliminar</button>
-            <button type="reset" class="btn btn-secondary">Limpiar</button>
-        </div>
-
-    </div>
-</form>
-
+        <form id="duenioForm" class="mb-4">
+            <input type="hidden" id="duenioId"> <!-- Campo oculto para actualizar -->
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                    <label for="dni" class="form-label">DNI</label>
+                    <input type="text" class="form-control" id="dni" required>
+                </div>
+                <div class="col-md-6 mb-3">
+                    <label for="nombre" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="nombre" required>
+                </div>
+                <div class="col-md-6 mb-3">
+                    <label for="apellido" class="form-label">Apellido</label>
+                    <input type="text" class="form-control" id="apellido" required>
+                </div>
+                <div class="col-md-6 mb-3">
+                    <label for="animalId" class="form-label">ID del Animal</label>
+                    <input type="text" class="form-control" id="animalId">
+                </div>
+                <div class="col-12 mt-3">
+                    <button type="submit" class="btn btn-success me-2">Guardar</button>
+                    <button type="button" class="btn btn-primary me-2" id="btnModificar">Modificar</button>
+                    <button type="button" class="btn btn-danger me-2" id="btnEliminar">Eliminar</button>
+                    <button type="reset" class="btn btn-secondary">Limpiar</button>
+                </div>
+            </div>
+        </form>
 
         <!-- Tabla para listar dueños -->
         <h2>Listado de Dueños</h2>
         <table class="table table-bordered" id="tablaDuenios">
-    <thead class="table-light">
-        <tr>
-            <th>ID</th>
-            <th>DNI</th>
-            <th>Nombre</th>
-            <th>Apellido</th>
-            <th>Animal</th>
-            <th>Seleccionar</th>
-        </tr>
-    </thead>
-    <tbody>
-        <!-- Ejemplo estático -->
-        <tr>
-            <td>1</td>
-            <td>12345678</td>
-            <td>Juan</td>
-            <td>Pérez</td>
-            <td>Firulais</td>
-            <td class="text-center">
-                <input type="checkbox" class="form-check-input seleccionar-duenio" value="1">
-            </td>
-        </tr>
-    </tbody>
-</table>
-
+            <thead class="table-light">
+                <tr>
+                    <th>ID</th>
+                    <th>DNI</th>
+                    <th>Nombre</th>
+                    <th>Apellido</th>
+                    <th>Animales</th>
+                    <th>Seleccionar</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Cargado dinámicamente -->
+            </tbody>
+        </table>
     </div>
 
     <!-- Footer -->
