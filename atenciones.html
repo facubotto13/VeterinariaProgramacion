@@ -31,7 +31,7 @@
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item"><a class="nav-link" href="animales.html">Animales</a></li>
                     <li class="nav-item"><a class="nav-link" href="duenios.html">Dueños</a></li>
-                    <li class="nav-item"><a class="nav-link" href="atenciones.html">Atenciones</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="atenciones.html">Atenciones</a></li>
                 </ul>
             </div>
         </div>
@@ -42,55 +42,54 @@
         <h2>Gestión de Atenciones</h2>
 
         <!-- Formulario para registrar o editar una atención -->
-<form id="atencionForm" class="mb-4">
-    <input type="hidden" id="atencionId">
-    <div class="row">
-        <!-- ID del Animal -->
-        <div class="col-md-6 mb-3">
-            <label for="animalId" class="form-label">ID del Animal</label>
-            <input type="text" class="form-control" id="animalId" required>
-        </div>
+        <form id="atencionForm" class="mb-4">
+            <input type="hidden" id="atencionId">
+            <div class="row">
+                <!-- ID del Animal -->
+                <div class="col-md-6 mb-3">
+                    <label for="animalId" class="form-label">ID del Animal</label>
+                    <input type="text" class="form-control" id="animalId" required>
+                </div>
 
-        <!-- Tipo de Atención -->
-        <div class="col-md-6 mb-3">
-            <label for="atencion" class="form-label">Tipo de Atención</label>
-            <input type="text" class="form-control" id="atencion" required>
-        </div>
+                <!-- Tipo de Atención -->
+                <div class="col-md-6 mb-3">
+                    <label for="atencion" class="form-label">Tipo de Atención</label>
+                    <input type="text" class="form-control" id="atencion" required>
+                </div>
 
-        <!-- Motivo de Consulta -->
-        <div class="col-md-6 mb-3">
-            <label for="motivo" class="form-label">Motivo Consulta</label>
-            <input type="text" class="form-control" id="motivo" required>
-        </div>
+                <!-- Motivo de Consulta -->
+                <div class="col-md-6 mb-3">
+                    <label for="motivo" class="form-label">Motivo Consulta</label>
+                    <input type="text" class="form-control" id="motivo" required>
+                </div>
 
-        <!-- Tratamiento Recibido -->
-        <div class="col-md-6 mb-3">
-            <label for="tratamiento" class="form-label">Tratamiento Recibido</label>
-            <input type="text" class="form-control" id="tratamiento" required>
-        </div>
+                <!-- Tratamiento Recibido -->
+                <div class="col-md-6 mb-3">
+                    <label for="tratamiento" class="form-label">Tratamiento Recibido</label>
+                    <input type="text" class="form-control" id="tratamiento" required>
+                </div>
 
-        <!-- Medicamentos -->
-        <div class="col-md-6 mb-3">
-            <label for="medicamentos" class="form-label">Medicamentos</label>
-            <input type="text" class="form-control" id="medicamentos" required>
-        </div>
+                <!-- Medicamentos -->
+                <div class="col-md-6 mb-3">
+                    <label for="medicamentos" class="form-label">Medicamentos</label>
+                    <input type="text" class="form-control" id="medicamentos" required>
+                </div>
 
-        <!-- Fecha -->
-        <div class="col-md-6 mb-3">
-            <label for="fecha" class="form-label">Fecha</label>
-            <input type="date" class="form-control" id="fecha" required>
-        </div>
+                <!-- Fecha -->
+                <div class="col-md-6 mb-3">
+                    <label for="fecha" class="form-label">Fecha</label>
+                    <input type="date" class="form-control" id="fecha" required>
+                </div>
 
-        <!-- Botones -->
-        <div class="col-12 mt-3">
-            <button type="submit" class="btn btn-success me-2">Guardar</button>
-            <button type="button" class="btn btn-primary me-2" id="btnModificar">Modificar</button>
-            <button type="button" class="btn btn-danger me-2" id="btnEliminar">Eliminar</button>
-            <button type="reset" class="btn btn-secondary">Limpiar</button>
-        </div>
-
-    </div>
-</form>
+                <!-- Botones -->
+                <div class="col-12 mt-3">
+                    <button type="submit" class="btn btn-success me-2">Guardar</button>
+                    <button type="button" class="btn btn-primary me-2" id="btnModificar">Modificar</button>
+                    <button type="button" class="btn btn-danger me-2" id="btnEliminar">Eliminar</button>
+                    <button type="reset" class="btn btn-secondary">Limpiar</button>
+                </div>
+            </div>
+        </form>
 
 
         <!-- Tabla de atenciones -->

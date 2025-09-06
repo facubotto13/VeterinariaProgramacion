@@ -21,16 +21,9 @@ namespace AdmVeterinaria.Datos
         public DbSet<Medicamento> Medicamentos { get; set; } = default!;
         public DbSet<Atencion> Atencions { get; set; } = default!;
 
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        {
-            if (!optionsBuilder.IsConfigured)
-            {
-                optionsBuilder.UseSqlServer("Server=tcp:bdserver2025prog.database.windows.net,1433;Initial Catalog=Veterinaria;Persist Security Info=False;User ID=Tacovicho;Password={t4C091218};MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;");
-            }
-        }
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.HasAnnotation("Relational:Collation", "en_US.UTF-8");
 
             modelBuilder.Entity<Animal>(entity =>
             {

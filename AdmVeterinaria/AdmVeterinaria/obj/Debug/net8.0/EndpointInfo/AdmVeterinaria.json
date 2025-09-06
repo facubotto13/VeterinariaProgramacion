@@ -103,13 +103,6 @@
             }
           },
           {
-            "name": "razaEdad",
-            "in": "query",
-            "schema": {
-              "type": "string"
-            }
-          },
-          {
             "name": "sexo",
             "in": "query",
             "schema": {

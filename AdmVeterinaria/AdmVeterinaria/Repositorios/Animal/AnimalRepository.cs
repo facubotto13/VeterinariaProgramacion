@@ -1,4 +1,5 @@
-﻿using AdmVeterinaria.Datos.Clases;
+﻿using AdmVeterinaria.Datos;
+using AdmVeterinaria.Datos.Clases;
 using AdmVeterinaria.Datos.Dtos;
 using AdmVeterinaria.Services;
 using Microsoft.EntityFrameworkCore;
@@ -7,18 +8,25 @@ namespace AdmVeterinaria.Repositorios.Animal
 {
     public class AnimalRepository : IAnimalRepository
     {
+        private readonly TodoContext _context;
+
+        public AnimalRepository(TodoContext context)
+        {
+            _context = context;
+        }
+
         public List<AdmVeterinaria.Datos.Clases.Animal> ObtenerAnimales()
         {
-            return AnimalDataStore.Current.Animales;
+            return _context.Animals.ToList();
         }
 
         public AdmVeterinaria.Datos.Clases.Animal ObtenerAnimal(int id)
         {
-            return AnimalDataStore.Current.Animales.FirstOrDefault(x => x.IdAnimal == id);
+            return _context.Animals.FirstOrDefault(x => x.IdAnimal == id);
         }
         public List<DtoAnimal> FiltrarAnimales(string? nombre, string? sexo)
         {
-            var query = AnimalDataStore.Current.Animales.AsQueryable();
+            var query = _context.Animals.AsQueryable();
 
             if (!string.IsNullOrWhiteSpace(nombre))
                query = query.Where(a =>
@@ -44,29 +52,21 @@ namespace AdmVeterinaria.Repositorios.Animal
 
         public void Eliminar(AdmVeterinaria.Datos.Clases.Animal animal)
         {
-            AnimalDataStore.Current.Animales.Remove(animal);
+            _context.Animals.Remove(animal);
+            _context.SaveChanges();
+
         }
 
         public void Agregar(AdmVeterinaria.Datos.Clases.Animal animal)
         {
-            // Asignar un ID autoincremental
-            animal.IdAnimal = AnimalDataStore.Current.Animales.Count > 0
-                ? AnimalDataStore.Current.Animales.Max(a => a.IdAnimal) + 1
-                : 1;
-
-            AnimalDataStore.Current.Animales.Add(animal);
+            _context.Animals.Add(animal);
+            _context.SaveChanges();
         }
 
         public void Actualizar(AdmVeterinaria.Datos.Clases.Animal animal)
         {
-            var existente = ObtenerAnimal(animal.IdAnimal);
-            if (existente != null)
-            {
-                existente.Nombre = animal.Nombre;
-                existente.Raza = animal.Raza;
-                existente.Edad = animal.Edad;
-                existente.Sexo = animal.Sexo;
-            }
+            _context.Animals.Update(animal);
+            _context.SaveChanges();
         }
     }
 }
