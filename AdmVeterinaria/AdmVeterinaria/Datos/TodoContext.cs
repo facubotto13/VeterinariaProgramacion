@@ -21,7 +21,7 @@ namespace AdmVeterinaria.Datos
         public DbSet<Medicamento> Medicamentos { get; set; } = default!;
         public DbSet<Atencion> Atencions { get; set; } = default!;
 
-        
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
 
